@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>Proyectos</title>
+  </head>
+  <body>
+    <div class="container" style="margin: 1.5rem">
+      <h1 class="main-title">Proyectos</h1>
+      <div class="content projects-content">
+        <div id="social-media">
+          <h3 class="sub-title">Social-media</h3>
+          <a href="./images/socialMediaIndex.png">
+            <img src="./images/socialMediaIndex.png" alt="social media" />
+          </a>
+          <p>
+            Primer proyecto fullstack que desarrolle, hace mucho estaba buscando
+            un proyecto que cumpliera con las necesidades de utilizar todas las
+            tecnologias necesarias para un desarrollo de frontend y backend con
+            llamadas a bases de datos en la nube, entonces investigando al
+            respecto me encontre con la posibilidad de realizar una red social
+            con funcionalidad basica pero necesaria en cualquiera de este tipo.
+            El usuario puede crear una nueva cuenta con un formulario que
+            realiza las respectivas validaciones, puede iniciar sesion, realizar
+            un posteo y comentar en posteos de otros usuarios, la interfaz se
+            actualiza en cada acción que se realiza (Utilizando React-Redux) ,
+            ademas el usuario tiene un perfil personal en el cual puede eliminar
+            los posteos que realizó!
+          </p>
+          <a href="./images/socialMediaHome.png">
+            <img src="./images/socialMediaHome.png" alt="social media" />
+          </a>
+          <p>
+            La complejidad mas alta que tuve al realizar este proyecto fue la de
+            mantener la sesion del usuario al refrescar la pagina. En principio
+            lo realicé generando una cookie al inicio de sesión del usuario,
+            luego me encontre en la posibilidad de utilizar un contexto para
+            mantener la sesión en el estado de la aplicacion constantemente pero
+            no llegue a implementarlo, si bien la aplicacion funciona de manera
+            correcta uno siempre quiere que el codigo sea lo mas mantenible y
+            escalable posible.
+          </p>
+          <p>
+            <a href="https://github.com/PablooEs/social-media" target="_blank"
+              >Link a repo</a
+            >
+          </p>
+        </div>
+        <div id="leaf-store">
+          <h3 class="sub-title">Leaf-store</h3>
+          <a href="./images/leafStoreIndex.png">
+            <img src="./images/leafStoreIndex.png" alt="social media" />
+          </a>
+          <p>
+            Este proyecto me sirvio para poder practicar y mejorar mis
+            habilidades en el desarrollo del frontend, tambien manejando estado
+            en la aplicacion, para agregar productos a un carrito, realizar un
+            calculo del subTotal individual y total de los productos. Utilice
+            Material-UI para el estilo de los componentes y para el tema verde
+            que se puede observar, este proyecto fue de una complejidad baja.
+          </p>
+          <a href="./images/leafStoreCart.png">
+            <img src="./images/leafStoreCart.png" alt="social media" />
+          </a>
+          <p>
+            <a href="https://github.com/PablooEs/leafStore" target="_blank"
+              >Link a repo</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <section id="footer">
+      <div class="footer">
+        <p>
+          Contacto:
+          <a href="https://github.com/PablooEs/" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/pablo-escobar-6a17a2192/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i
+          ></a>
+        </p>
+      </div>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/f9b05bdad0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
