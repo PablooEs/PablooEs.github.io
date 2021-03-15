@@ -21,7 +21,7 @@ p.desc {
 }
 
 .container {
-  padding: 2rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,6 +113,10 @@ p.desc {
   .projects-content img {
     width: 60%;
   }
+  .about{
+    margin-left: 3rem;
+    width: 75%;
+  }
 }
 .footer {
   border-top: #fff solid 0.1rem;
@@ -134,4 +138,7 @@ p.desc {
   color: white;
   font-size: 1.5rem;
   margin-left: 1.5rem;
+}
+.list{
+  padding: 1.5rem
 }
